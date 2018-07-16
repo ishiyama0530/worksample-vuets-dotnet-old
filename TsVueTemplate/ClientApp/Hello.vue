@@ -7,6 +7,10 @@
             <h1 class="title">
                 {{exampleProperty}}
             </h1>
+            <div class="field">
+                <input class="input" type="text" placeholder="name input" style="width: 300px" v-model="name">
+            </div>
+            <a class="button is-info" @click="onClick()">click me!</a>
         </div>
     </section>
 </template>
